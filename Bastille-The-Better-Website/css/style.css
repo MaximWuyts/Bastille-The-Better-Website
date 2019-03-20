@@ -1,0 +1,358 @@
+* {
+    
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizelegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+}
+
+li {
+    
+    list-style: none;
+    display: inline-block;
+    
+}
+
+a {
+    
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+    
+}
+
+a:hover, a:active {
+
+    text-decoration: none;
+
+}
+
+h1, h2, h4 {
+    
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+
+p {
+
+    font-size: 15px;
+    line-height: 21px;
+
+}
+
+.btn {
+
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    
+}
+
+.btn:hover {
+
+    background-color: #ededed !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+
+/* Nav */
+
+.navbar {
+    background-color: #222222 !important;
+    text-transform: uppercase;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.navbar a{
+    color: #fff !important;
+    opacity: 0.7;
+}
+
+.navbar a:hover{
+    opacity: 1;
+    /*background-color: #111111 !important; */
+}
+
+/* Header */
+.header {
+    height: 700px;
+    width: 100%;
+    padding: 30px 0 30px;    
+    margin-top: 50px;
+    background-image: url(../images/160616_bastille-home.jpg);
+    background-position: center center;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 200px;
+    font-weight: 100;
+    opacity: 0.9;
+    font-family: 'bastille';
+    margin-top: 300px;
+} 
+
+.header img {
+    margin-top: 300px;
+}
+
+.header-button{
+    
+    color:rgba(255, 255, 255, 0.9) !important;
+    background: rgba(0, 0, 0, 0.2) !important;
+    width: 250px;
+    height: 60px;
+    font-weight: 200 !important;
+    font-size: 35px !important;
+    text-align: center !important;
+    border-radius: 0 !important;
+    border-color: #fff !important;
+    margin-right: 20px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.header a {
+    color:rgba(255, 255, 255, 0.9) !important;
+    text-decoration: none !important;
+
+}
+
+
+.header-button:hover{
+    /* border-color: #222222 !important; */
+    border: solid #11fd87 2px !important;
+    
+    /* background-color: #fff !important;
+    color: #3c3c3c !important; */
+}
+
+/* Members */
+
+.members {
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.members b,
+.members h1,
+.members h4 {
+    margin: 20px 0 20px;
+    color: #4c4c4c;
+}
+
+.members p{
+    margin: 0 100px;
+    color: #737373;
+}
+
+.members img{
+    margin-top: 80px;
+}
+
+/* Concerts */
+
+.concerts{
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #222222 !important;
+}
+
+.concerts h2,
+.concerts h4,
+.concerts p{
+    color: #fff;
+}
+
+.concerts{
+    padding-bottom: 70px;
+}
+
+.concerts .packages{
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.packages h4, h5,h1 {
+    color: #4c4c4c;
+}
+
+.packages button{
+    margin-top: 5px;
+}
+
+.packages {
+    height: 220px;
+}
+
+.redTickets{
+    color: #fd1111;
+}
+
+.nonvisible{
+    visibility: hidden;
+}
+
+/* Music */
+
+.music{
+    padding: 50px 0 80px;
+    background-color: #fff;
+    text-align: center;
+    color: #fff;
+    background-image: url(../images/wal33.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    
+}
+
+.music h2{
+    color: #ffffff;
+}
+
+.music p{
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+.music img{
+    width: 300px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s; /* Animation */
+    margin: 40px 0;
+    transition: all 500ms ease-in-out;
+}
+
+.music img:hover{
+    transform: scale(1.1);
+}
+
+.video iframe{
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Contact  */
+
+.contact{
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.contact h2{
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+.contact .input-group {
+    margin-bottom: 25px;
+}
+
+.contact .form-control{
+    border-radius: 0 !important;
+}
+
+.contact span{
+    border-radius: 0 !important;
+}
+
+.contact .btn{
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #222222 !important;
+    color: #fff;
+}
+
+.contact .btn:hover{
+    background-color: #fff !important;
+    color: #222222 !important;
+    border-color: #222222 !important;
+}
+
+.contact textarea{
+    margin-bottom: 5px !important;
+}
+
+/* footer */
+
+.footer{
+    padding: 30px;
+    background-color: #222222;
+    
+}
+
+.socials {
+    text-align: right !important;
+}
+
+
+.footer img{
+    margin: 0 10px;   
+}
+
+.footerLogo{
+    margin-top: 5px !important;
+}
+
+@media(max-width: 768px){
+    .header{
+        background-image: url(../images/responsiveheader.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header h1{
+        font-size: 60px;
+    }
+
+    .header img{
+        width:198px;
+        height: 43px;
+    }
+
+    .header-button{
+        margin-left: 20px;
+        margin-bottom: 10px !important;
+    }
+    .navbar img {
+        margin-left: 15px;
+    }
+
+    .members p{
+        margin: 30px;
+        text-align: left;
+    }
+    .concerts{
+        padding: 30px;
+    }
+    .packages{
+        width: 80%;
+        margin-left: 25px;
+    }
+
+    .music{
+       
+        background-image: url(../images/wal33.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-attachment: fixed;
+        background-position-x: -310px;
+    }
+}
